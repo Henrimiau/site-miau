@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login</h1>
+     
+       usuario: <input type="text" id="usuario"><br>
+       senha: <input type="password" id="senha"><br>
+       <!-- barra do login -->
+
+       <hr>
+
+       <input type="submit" onclick="login()" value="Enviar">
+       <!-- botão enviar -->
+
+
+       <div id="botaoEntrar">
+        <button> <a href="./ben vindo.html">entrar</a> </button>
+       </div>
+
+         <script>
+        function login(){ //funçao login
+            var senha = document.querySelector("#senha").value; // e pra fazer que a senha de certo
+            var nome = document.querySelector('#usuario').value; //e pra fazer que o login de certo
+            var div = document.querySelector("#botaoEntrar"); //amarzena na variavel div a div com id botao Entrar
+            console.log(nome); //mostrar o nome
+            console.log(senha); //mostrar a senha
+            if (nome=="Henri"){ //verificando se o nome ta certo
+                if (senha=="miau"){
+                    alert("você se logou, "+nome) //mensagen vc logou
+                    div.style.display = "block";
+                }else{
+                    alert("senha incorreta :("); //se nâo da certo o login vai aparecer essa mensagen
+                }
+
+            }
+        
+        }
+        
+    </script>
+</body>
+</html>

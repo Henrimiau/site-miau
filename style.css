@@ -1,0 +1,91 @@
+#navbar{
+    justify-content: space-around;
+    display: flex;
+    border-style: double;
+    font-size: 50px;
+}
+#sair{
+    height: 50px;
+    background-color:  red; 
+    width: 100px;
+    font-size: 40px;
+
+}
+
+#sair2{
+    text-decoration: none;
+}
+
+.div{
+    text-align: center;
+    width: auto;
+}
+#miau{
+    border-style: double;
+    font-size: 34px;
+    display: flex;
+    justify-content: space-around;
+}
+#textofotos{
+    justify-content: center;
+    display: flex;
+}
+
+.fotoG{
+    height: 40em;
+    width: 40em;
+}
+
+.fotosP{
+    height: 20em;
+    width: 20em;
+}
+
+.fotosBV{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: rgb(255, 6, 6);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hi{
+    background-color: red;
+    color: aliceblue;
+    justify-content: center;
+    border-radius: 15%;
+    width: auto;
+    text-align: center;
+}
+
+.oiii{
+    width: 75%;
+}
+h2{
+    color: red;
+}
+#po{
+    background-color: red;
+    color: aliceblue;
+    justify-content: center;
+    border-radius: 15%;
+    width: auto;
+    text-align: center;
+    
+}
+#jh{
+    background-color: red;
+    color: aliceblue;
+    justify-content: center;
+    border-radius: 15%;
+    width: auto;
+    text-align: center;
+}
+#botaoEntrar{
+    display:none;
+}
+
